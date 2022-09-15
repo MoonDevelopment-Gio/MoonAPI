@@ -17,7 +17,7 @@ public class FileUtil {
     }
 
     public FileConfiguration get(String file) {
-        File jfile = new File(plugin.getDataFolder(), "messages.yml");
+        File jfile = new File(plugin.getDataFolder(), file);
         if (!jfile.exists()) {
             Utils.ConsoleMSG(Utils.CC("&8» &c" + file + "not found, Creating file..."));
             jfile.getParentFile().mkdirs();
