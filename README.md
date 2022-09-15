@@ -25,7 +25,6 @@
 | TabList          | :white_check_mark: |
 | Database         | :white_check_mark: |
 | GUI              | :white_check_mark: |
-| Modules          | :white_check_mark: |
 | Title            | :white_check_mark: |
 | FileConfiguration| :white_check_mark: |
 | ItemBuilder      | :x:                |
