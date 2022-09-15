@@ -36,7 +36,35 @@
 <h1 align="center">Maven</h1>
 
 ```xml
-<!-- Coming soon -->
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
+	<dependency>
+	    <groupId>com.github.MoonDevelopment-Gio</groupId>
+	    <artifactId>MoonAPI</artifactId>
+	    <version>v1.0</version>
+	</dependency>
+```
+
+<br />
+
+<h1 align="center">Gradle</h1>
+
+```gradle
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+	dependencies {
+	        implementation 'com.github.MoonDevelopment-Gio:MoonAPI:v1.0'
+	}
 ```
 <br />
 
